@@ -1,6 +1,6 @@
 FROM vault
 
-RUN apk add --no-cache bash python
+RUN apk add --no-cache bash python zip
 RUN mkdir -p /vault-config/
 
 
