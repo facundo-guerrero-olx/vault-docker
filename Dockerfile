@@ -1,6 +1,6 @@
 FROM vault
 
-RUN apk add --no-cache bash python zip gzip tar
+RUN apk add --no-cache bash python zip gzip tar jq
 RUN mkdir -p /vault-config/
 
 
